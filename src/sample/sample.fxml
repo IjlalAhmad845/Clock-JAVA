@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Circle fill="#ffffff00" layoutX="400.0" layoutY="300.0" radius="275.0" stroke="#656565" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fill="#ffffff00" layoutX="400.0" layoutY="300.0" radius="250.0" stroke="#656565" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fill="#1f93ff00" layoutX="400.0" layoutY="164.0" radius="55.0" stroke="#656565" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fill="#1f93ff00" layoutX="277.0" layoutY="274.0" radius="55.0" stroke="#656565" strokeType="INSIDE" strokeWidth="5.0" />
+      <Circle fill="#1f93ff00" layoutX="529.0" layoutY="274.0" radius="55.0" stroke="#656565" strokeType="INSIDE" strokeWidth="5.0" />
+      <Line fx:id="second" endX="105.0" layoutX="500.0" layoutY="300.0" startX="-100.0" stroke="#4e5675" strokeLineCap="ROUND" strokeWidth="3.0" />
+      <Line fx:id="minute" endX="48.0" endY="-131.0" layoutX="500.0" layoutY="300.0" startX="-100.0" stroke="#4e5675" strokeLineCap="ROUND" strokeWidth="5.0" />
+      <Line fx:id="hour" endX="18.0" endY="109.0" layoutX="500.0" layoutY="300.0" startX="-100.0" stroke="#4e5675" strokeLineCap="ROUND" strokeWidth="8.0" />
+      <Line fx:id="smallminute" endX="40.0" layoutX="280.0" layoutY="274.0" stroke="#4e5675" strokeLineCap="ROUND" strokeWidth="5.0" />
+      <Line fx:id="smallsec" endX="40.0" layoutX="403.0" layoutY="164.0" stroke="#4e5675" strokeLineCap="ROUND" strokeWidth="5.0" />
+      <Line fx:id="smallhour" endX="40.0" layoutX="533.0" layoutY="276.0" stroke="#4e5675" strokeLineCap="ROUND" strokeWidth="5.0" />
+      <Circle fx:id="point" fill="#636363" layoutX="203.0" layoutY="131.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point1" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point2" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point3" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point4" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point5" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point6" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+      <Circle fx:id="point7" fill="#636363" layoutX="213.0" layoutY="141.0" radius="7.0" stroke="#656565" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
